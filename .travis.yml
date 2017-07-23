@@ -7,6 +7,8 @@ sudo: false
 # Do not choose a language; we provide our own build tools.
 language: generic
 
+dist: precise
+
 # Caching so the next build will be fast too.
 cache:
   directories:
